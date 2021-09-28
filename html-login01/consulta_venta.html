@@ -6,74 +6,103 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Consulta_Venta</title>
-  <description>Página para la consulta de las ventas</description>
-  <!--<link rel="stylesheet" href="main.css">
-  <link rel="shortcut icon" href="" type="image/x-icon" />-->
+  <!--<description>Página para la consulta de las ventas</description>-->
+
+  <!--<link rel="stylesheet" href="main.css">-->
+  <link rel="shortcut icon" href="media/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="./estilos_secundarios.css">
+
+
 
 </head>
 
 <body>
   <header>
-    Este es el header
+    <ul class="navbar">
+      <li>
+        <img src="./media/favicon.png" alt="imagen_logo" class="logo">
+
+      </li>
+      <li>
+        <button class="button mainButton">Ventas</button>
+      </li>
+      <li>
+        <button class="button mainButton">Productos</button>
+      </li>
+
+      <li>
+        <button class="button mainButton">Clientes</button>
+      </li>
+      <li>
+        <button class="button mainButton">Vendedores</button>
+      </li>
+      <li>
+        <button class="button mainButton">Usuarios</button>
+      </li>
+      <button class="button secondaryButton">Login</button>
+      <li>
+
+      </li>
+    </ul>
 
 
   </header>
 
+  <br>
+  <main>
 
-  <main></main>
-  Este es el main
-  <section>Seccion de Filtros</section>
-  <h4>Escoger que información desea filtrar</h4>
+    <section>Seccion 1 - Titulo Funcionalidad Filtros</section>
+    <h6>" Escoger que información desea filtrar "</h6>
 
-  <section>Seccion 2</section>
-  <form action="">
-    <label for="">Seleccione Fecha Inicial
-      <input type="date">
-    </label>
-    <label for="">Seleccion Fecha Final
-      <input type="date">
-    </label>
-    <br>
-    <br>
-    <label>Elige Vendedor
-      <select name="vendedor" id="" required>
+    <section>Seccion 2</section>
+    <form action="">
+      <label for="">Seleccione Fecha Inicial
+        <input type="date">
+      </label>
+      <label for="">Seleccion Fecha Final
+        <input type="date">
+      </label>
+      <br>
+      <br>
+      <label>Elige Vendedor
+        <select name="vendedor" id="" required>
 
-        <option value="" selected>Todos</option>
-        <option value="Luis_Perez">Luis Perez</option>
-        <option value="Juan_Rodriguez">Juan Rodriguez</option>
-        <option value="Carlos_Martinez">Carlos Martinez</option>
-      </select>
-    </label>
+          <option value="" selected>Todos</option>
+          <option value="Luis_Perez">Luis Perez</option>
+          <option value="Juan_Rodriguez">Juan Rodriguez</option>
+          <option value="Carlos_Martinez">Carlos Martinez</option>
+        </select>
+      </label>
 
-    <label for="">Digite Nombre Cliente
-      <input type="search" placeholder="Datos Cliente">
-    </label>
+      <label for="">Digite Nombre Cliente
+        <input type="search" placeholder="Datos Cliente">
+      </label>
 
-    <label for="">Digite ID Cliente
-      <input type="number" placeholder="Numero Documento">
-    </label>
+      <label for="">Digite ID Cliente
+        <input type="number" placeholder="Numero Documento">
+      </label>
 
-    <label for="">Digite Producto
-      <input type="search" placeholder="producto a consultar">
-    </label>
-
-
-
-
-    <hr>
-    <button type="submit">Consultar</button>
-    <button type="reset">Limpiar</button>
-    <a href="index.html">Regresar</a>
+      <label for="">Digite Producto
+        <input type="search" placeholder="producto a consultar">
+      </label>
 
 
 
-  </form>
-  <h3>Seccion para visualizar resultados </h3>
-  <section>Seccion 3</section>
 
-  <footer></footer>
-  Este es el footer
+      <hr>
+      <button type="submit">Consultar</button>
+      <button type="reset">Limpiar</button>
+      <a href="index.html">Regresar</a>
 
+
+
+    </form>
+    <h3>Seccion para visualizar resultados </h3>
+    <section>Seccion 3</section>
+  </main>
+  <footer>
+    Este es el footer
+  </footer>
 
 
 </body>
