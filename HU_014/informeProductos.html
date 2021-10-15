@@ -1,0 +1,135 @@
+<!--Historia de Usuario 014:Diseñar y crear la interfaz para que el administrador pueda consultar y obtener la información de los productos registrados en el aplicativo de gestion de ventas.-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aplicativo de Ventas</title>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ANIMATE CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+    />
+
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="informeProductos.css" />
+  </head>
+  <body>
+    <div class="content">
+      <h1 class="logo">Maestro de Productos</h1>
+
+      <div class="product-wrapper">
+        <div class="product-form">
+          <h3>Informe de Productos Registrados</h3>
+          <form action=" ">
+            <p>
+              <label for="Codigo del Producto">Codigo del Producto</label>
+              <input
+                type="text"
+                name="Codigo del Producto"
+                id="Codigo del Producto"
+              />
+            </p>
+            <p>
+              <label for="Nombre del Producto">Nombre del Producto</label>
+              <input
+                type="text"
+                name="Nombre del Producto"
+                id="Nombre del Producto"
+              />
+            </p>
+            <p>
+              <label for="Marca">Marca</label>
+              <input type="text" name="Marca" id="Marca" />
+            </p>
+            <p>
+              <label for="Cantidad">Cantidad</label>
+              <input type="text" name="Cantidad" id="Cantidad" />
+            </p>
+            <p>
+              <label for="Color">Color</label>
+              <input type="text" name="Color" id="Color" />
+            </p>
+
+            <p>
+              <label for="Precio Desde">Precio Desde</label>
+              <input type="number" name="Precio Desde" id="Precio Desde" />
+            </p>
+
+            <p>
+              <label for="Precio Hasta">Precio Hasta</label>
+              <input type="number" name="Precio Hasta" id="Precio Hasta" />
+            </p>
+
+            <p>
+              <label for="Material">Material</label>
+              <input type="text" name="Material" id="Material" />
+            </p>
+
+            <p>
+              <label for="Tamaño">Tamaño</label>
+              <input type="text" name="Tamano" id="Tamano" />
+            </p>
+
+            <p>
+              <label for="Modelo">Modelo</label>
+              <input type="text" name="Modelo" id="Modelo" />
+            </p>
+
+            <p>
+              <label for="Fecha Ingreso Desde">Fecha Ingreso Desde</label>
+              <input type="date" name="Fecha Ingreso Desde" id="Fecha Ingreso Desde" />
+            </p>
+
+            <p>
+              <label for="Fecha Ingreso Hasta">Fecha Ingreso Hasta</label>
+              <input type="date" name="Fecha Ingreso Hasta" id="Fecha Ingreso Hasta" />
+            </p>
+
+            <p>
+              <label for="Fecha de Actualizacion Desde">Fecha de Actualizacion Desde</label>
+              <input
+                type="date"
+                name="Fecha de Actualizacion Desde"
+                id="Fecha de Actualizacion Desde"
+              />
+            </p>
+
+            <p>
+              <label for="Fecha de Actualizacion Hasta">Fecha de Actualizacion Hasta</label>
+              <input
+                type="date"
+                name="Fecha de Actualizacion Hasta"
+                id="Fecha de Actualizacion Hasta"
+              />
+            </p>
+
+            <p class="botones">
+              <button type="Consultar Producto">Consultar Productos</button>
+            </p>
+            <p class="botones">
+              <button type="Descargar Informe">Descargar Informe</button>
+            </p>
+          </form>
+        </div>
+        <div class="InformeDeProductos"></div>
+      </div>
+    </div>
+  </body>
+</html>

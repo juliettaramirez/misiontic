@@ -1,0 +1,114 @@
+<!--Historia de Usuario 016:Diseñar y crear la interfaz que permita al administrador editar la información de los productos registrados en el aplicativo de gestion de ventas. Deadline 2021/10/03-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aplicativo de Ventas</title>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ANIMATE CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+    />
+
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="editarProductos.css" />
+  </head>
+  <body>
+    <div class="content">
+      <h1 class="logo">Maestro de Productos</h1>
+
+      <div class="product-wrapper">
+        <div class="product-form">
+          <h3>Actualizar Productos Registrados</h3>
+          <form action=" ">
+            <p>
+              <label for="Codigo del Producto">Codigo del Producto</label>
+              <input
+                type="text"
+                name="Codigo del Producto"
+                id="Codigo del Producto"
+              />
+            </p>
+            <p>
+              <label for="Nombre del Producto">Nombre del Producto</label>
+              <input
+                type="text"
+                name="Nombre del Producto"
+                id="Nombre del Producto"
+              />
+            
+              <p>
+                <label for="Marca">Marca</label>
+                <input type="text" name="Marca" id="Marca" />
+              </p>
+              <p>
+                <label for="Cantidad">Cantidad</label>
+                <input type="text" name="Cantidad" id="Cantidad" />
+              </p>
+              <p>
+                <label for="Color">Color</label>
+                <input type="text" name="Color" id="Color" />
+              </p>
+  
+              <p>
+                <label for="Precio">Precio</label>
+                <input type="number" name="Precio" id="Precio" />
+              </p>
+  
+              <p>
+                <label for="Material">Material</label>
+                <input type="text" name="Material" id="Material" />
+              </p>
+  
+              <p>
+                <label for="Tamaño">Tamaño</label>
+                <input type="text" name="Tamano" id="Tamano" />
+              </p>
+  
+              <p>
+                <label for="Modelo">Modelo</label>
+                <input type="text" name="Modelo" id="Modelo" />
+              </p>
+  
+              <p>
+                <label for="Fecha Ingreso">Fecha Ingreso</label>
+                <input type="date" name="Fecha Ingreso" id="Fecha Ingreso" />
+              </p>
+            
+            <p class="botones">
+              <button type="Consultar Producto">Consultar Productos</button>
+            </p>
+            <p class="botones">
+              <button type="Actualizar Producto">Actualizar Producto</button>
+            </p>
+            <p class="botones">
+              <button type="Guardar Cambios">Guardar Cambios</button>
+            </p>
+            <p class="botones">
+              <button type="Cancelar">Cancelar</button>
+            </p>
+            
+          </form>
+        </div>
+        <div class="editarProductos"></div>
+      </div>
+    </div>
+  </body>
+</html>
