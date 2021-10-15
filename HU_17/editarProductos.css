@@ -1,0 +1,82 @@
+/*Historia de Usuario 015:Diseñar y crear la interfaz que permita al administrador buscar la información de los productos registrados en el aplicativo de gestion de ventas, especificamente por el identificador del producto o la descripcion del mismo.*/
+*{
+    box-sizing: border-box;
+}
+body {
+    background: #181818;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 1.5em;
+
+
+}
+.content {
+    max-width: 1178px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+.logo {
+text-align: center;
+font-size: 3em;
+}
+
+.product-wrapper {
+    box-shadow: 0 0 20px 0 rgba (255, 255, 255, .3);
+
+}
+.product-wrapper > * {
+    padding: 1em;
+
+}
+
+.product-form {
+    background: #222222
+}
+
+.product-form form .botones{
+    display: inline-block;
+        
+}
+
+.product-form form p{
+    margin: 0;
+    padding: 1em;
+}
+.product-form {
+    margin: 0; 
+    padding: 1em;
+}
+
+.product-form form button,
+.product-form form  input,
+.product-form form textarea {
+    width: 100%;
+    padding: 0.50em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+.product-form form button {
+    width: 100%;
+    background: #fff;
+    border: 10;
+    color: rgb(28, 25, 25);
+    text-transform: uppercase;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.product-form form .botones :hover,
+.product-form form .botones :focus {
+    background: #fff ;
+    color: #d63031;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+
+
+
+
