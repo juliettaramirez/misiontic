@@ -1,0 +1,51 @@
+body {
+   background: url("../img/fondo.png");
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin: 0;
+   height: 100vh;
+}
+
+.form-register {
+   width: 400px;
+   background: #24303c;
+   padding: 70px;
+   margin: auto;
+   margin-top: 90px;
+   border-radius: 4px;
+   font-family: 'calibri';
+   color: white;
+   box-shadow: 7px 13px 37px #000;
+}
+  
+.login h2{
+   color: #fff;
+   margin-bottom: 45px;
+}
+  
+.login button i{
+   position: absolute;
+   top: 12px; 
+   left: 12px;
+}
+  
+.login button{
+   width: 100%;
+   margin: 15px 0px;
+   padding: 10px;
+   box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
+   cursor: pointer;
+   position: relative;
+}
+  
+.login .correo{
+   background: #33d4ce;
+   border-style: none;
+   color: #fff;
+}
+  
+.pie-form {
+   font-size: 90%;
+   text-align: center;    
+   margin-top: 15px;
+}
