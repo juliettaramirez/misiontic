@@ -1,0 +1,55 @@
+body {
+  margin: 0px;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(168, 168, 245);
+  border-bottom: 1px solid blue;
+  box-shadow: 1px 1px blue;
+}
+
+.navbar > li {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 25px;
+}
+
+.button {
+  border: 0px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: bolder;
+  color: white;
+}
+
+.button:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
+
+.mainButton {
+  background-color: green;
+}
+
+.mainButton:hover {
+  box-shadow: 2px 2px black;
+}
+
+.secondaryButton {
+  background-color: cadetblue;
+}
+
+.secondaryButton:hover {
+  box-shadow: 2px 2px blue;
+}
